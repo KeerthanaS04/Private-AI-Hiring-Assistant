@@ -108,6 +108,7 @@ Gemma 3n was chosen for the following reasons:
 `
 Your output should only contain JSON. No explanation.
 `
+
 3. Privacy & Security
 - To avoid exposing resumes and JD to cloud APIs:
      -> Hosted the model locally using ngrok
@@ -131,7 +132,7 @@ Your output should only contain JSON. No explanation.
 ## Appendix: Key Prompts Used
 
 **1. Match Score Prompt**
-`
+```
 [RESUME]
 ...resume text...
 [JD]
@@ -146,10 +147,10 @@ Your output should be JSON formatted like:
   "Soft Skills": [...],
   "Match Score": "X / 100"
 }
-`
+```
 
 **2. Interview Question Prompt**
-`
+```
 [RESUME]
 ...resume text...
 [JD]
@@ -157,4 +158,4 @@ Your output should be JSON formatted like:
 [INTERVIEW_QUESTIONS]
 
 Generate 5 technical and 3 behavioral questions that test the candidate's suitability.
-`
+```
