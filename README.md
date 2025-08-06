@@ -71,7 +71,7 @@ prepare interview questions based on the candidate's qualifications — all with
 
 ## Example Output
 
-`
+```
 {
   "Technical Skills": [
   "Data Science", "Python", "React", ...
@@ -81,7 +81,7 @@ prepare interview questions based on the candidate's qualifications — all with
   "Soft Skills": ["Teamwork", "Problem Solving"],
   "Match Score": "85 / 100"
 }
-`
+```
 
 ## Why Gemma 3n?
 Gemma 3n was chosen for the following reasons:
