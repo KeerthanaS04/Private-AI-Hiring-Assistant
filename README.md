@@ -36,6 +36,7 @@ prepare interview questions based on the candidate's qualifications — all with
      -> match: Returns a structured JSON including technical skills, experience, education, soft skills, and an overall match score
      -> chat: Generates follow-up interview questions
 - Prompt structure:
+  
   `
   [RESUME]
 ...resume text...
@@ -43,6 +44,7 @@ prepare interview questions based on the candidate's qualifications — all with
 ...job description...
 [OUTPUT]
   `
+  
 ## Data Flow Diagram
 ```
 [User Interface - Streamlit]
@@ -68,6 +70,7 @@ prepare interview questions based on the candidate's qualifications — all with
 ```
 
 ## Example Output
+
 `
 {
   "Technical Skills": [
